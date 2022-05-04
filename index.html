@@ -15,14 +15,20 @@
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/garden.js"></script>
 <script type="text/javascript" src="js/functions.js"></script>
-
 </head>
 
 <body>
 <!--<embed src="https://s33.aconvert.com/convert/p3r68-cdx67/vqhq09vt6h/35839.mp3" width="0" height="0" loop="-1" autostart="true"> </embed> -->
- <audio autoplay="" loop=""><source src="35839.mp3"></audio>
+ <audio autoplay="" loop=""><source src="./35839.mp3"></audio>
 <audio ref="audio" preload="preload" autoplay="autoplay" loop="loop" id="music">
 <source src="35839.mp3" type="audio/mp3">
+</audio>
+<div class="musicinfo" id="musicinfo">
+        <audio id="musicid" src="35839.mp3" preload="preload" autoplay="autoplay"  loop="loop">您的浏览器不支持 audio标签。</audio>
+</div> 
+
+<audio controls="controls" autoplay="autoplay">
+  <source src="35839.mp3" type="audio/mpeg" />
 </audio>
 
 <div id="mainDiv">
